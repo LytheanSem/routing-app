@@ -42,7 +42,11 @@ const router = createBrowserRouter([
     ],
   },
 
-]);
+],
+  {
+    basename: "/routing-app",
+  }
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
